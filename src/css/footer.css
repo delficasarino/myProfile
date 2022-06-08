@@ -1,0 +1,21 @@
+.footer {
+    background-color: #49b081;
+    color: #f5d9d7;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    border-bottom: .2rem solid #f5d9d7;
+    padding-bottom: .8rem;
+    width: 100%;
+    text-align: center;
+}
+
+.footer i {
+    color: #f5d9d7;
+    font-size: 1.5rem;
+}
+
+.contact section {
+    width: 100%;
+}

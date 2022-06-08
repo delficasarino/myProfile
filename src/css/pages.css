@@ -1,0 +1,13 @@
+section.pages {
+    width: 100%;
+    margin-top: 2rem;
+}
+
+section.pages article {
+    width: 80%;
+}
+
+.pagesButton {
+    width: 20vw;
+}
+
