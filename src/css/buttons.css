@@ -3,7 +3,7 @@
     background-color: #49b081;
     padding: .5rem;
     border-radius: .5rem .5rem 0 0;
-    color: #f5d9d7;
+    color: #e9edc9;
     width: 30%;
     height: 70px;
     font-size: .8rem;
@@ -17,5 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    
+    .button {
+        font-size: 1rem;
+    }
 }
