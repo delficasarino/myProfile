@@ -29,6 +29,10 @@ header {
     }
 }
 
+header section h1 {
+    width: 100%;
+}
+
 header section h2 {
     border-top: .2rem solid #ef8086;
     padding-top: .8rem;
