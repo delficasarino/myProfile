@@ -1,9 +1,11 @@
 import React from "react";
-import '../css/buttons.css';
+import "../css/buttons.css";
 
-function Button({name,onClick,active}) {
+function Button({ name, onClick, active }) {
   return (
-    <button className={`button ${active ? "active" : null}`} onClick={onClick}>{name}</button>
+    <button className={`button ${active ? "active" : null}`} onClick={onClick}>
+      {name}
+    </button>
   );
 }
 

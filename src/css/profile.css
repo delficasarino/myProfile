@@ -1,23 +1,57 @@
 .profile {
-    background-color: #49b081;
-    width: 100%;
-    padding-top: .5rem;
-    height: 40vh;
+  background-color: #49b081;
+  width: 100%;
+  padding-top: 0.5rem;
+  height: auto;
 }
 
-.text {
-    text-align: justify;
-    padding: 0 2rem 0 2rem;
-    color: #49b081;
+.profile p {
+  text-align: left;
+  padding: 0 2rem 0 2rem;
+  color: #49b081;
+}
+
+.profile ul {
+  width: 90%;
 }
 
 .active {
-    background-color: #ccc;
+  background-color: #ccc;
+}
+
+.boxProfile {
+  border: #49b081 solid 0.2rem;
+  margin: 0.5rem;
+}
+
+.textBox {
+  margin-left: 0.5rem;
 }
 
 @media screen and (min-width: 768px) {
-    .text {
-        text-align: justify;
-        width: 50%;
-    }
+  .profile {
+    padding-top: 0;
+    height: auto;
+  }
+  .profile p {
+    width: 60%;
+  }
+
+  .profile ul {
+    width: 60%;
+    padding-bottom: 3rem;
+  }
+
+  .boxProfile {
+    margin-top: 2rem;
+    width: 30% !important;
+    transition: 1s ease-in-out;
+    margin-bottom: 1.5rem;
+  }
+
+  .boxProfile:hover {
+    background-color: #49b081;
+    color: snow;
+    transition: 0.8s ease-in-out;
+  }
 }

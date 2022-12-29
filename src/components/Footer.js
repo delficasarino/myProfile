@@ -1,14 +1,14 @@
 import React from "react";
-import '../css/footer.css';
+import "../css/footer.css";
 
 function Footer() {
   return (
     <section className="df jcc aic footer">
       <article className="contact df jcc aic wp">
-        <h3 className="jcc">Contactame</h3>
+        <h3 className="jcc">Contact Me</h3>
         <section className="df jcc aic">
           <i class="fa-solid fa-at"></i>
-          <p>delficasarino@gmail.com</p>
+          <a href="mailto:delficasarino@gmail.com">delficasarino@gmail.com</a>
         </section>
         <section className="df jcc aic">
           <i class="fa-solid fa-phone"></i>
@@ -16,7 +16,9 @@ function Footer() {
         </section>
         <section className="df jcc aic">
           <i class="fa-brands fa-github"></i>
-          <p>delficasarino</p>
+          <a href="https://github.com/delficasarino" target="_blank">
+            delficasarino
+          </a>
         </section>
       </article>
     </section>

@@ -1,12 +1,40 @@
 import React from "react";
-import '../css/profile.css';
+import "../css/profile.css";
 
-function Profile({active}) {
+function Profile({ active }) {
   return (
-    <section className={`profile df wp jcc aic ${active ? "active" : null}`}>
-      <p className="text">Soy Licenciada en Publicidad, en el 2021 realicé el curso de Full Stack Developer Node en Digital House y desde ese momento me enfoqué en dedicarme a la carrera de programación web.
-      <br/><br/>
-      Me motiva trabajar en empresas con ambientes dinámicos en donde se me permita desarrollar mis habilidades y crecer profesionalmente.</p>
+    <section className={`profile df cl jcc aic ${active ? "active" : null}`}>
+      <article className="df cl boxProfile">
+        <section className="df rw wp jcc aic">
+          <h4>Name:</h4>
+          <h4 className="textBox">María Delfina Casarino</h4>
+        </section>
+        <section className="df rw wp jcc aic">
+          <h4>Birthdate:</h4>
+          <h4 className="textBox">12/06/1989</h4>
+        </section>
+        <section className="df rw wp jcc aic">
+          <h4>Citizenship:</h4>
+          <h4 className="textBox">Argentina / Italy</h4>
+        </section>
+      </article>
+      <p>
+        I have a degree in Advertising, with experience working in marketing
+        departaments. In 2021 I decided to dedicate full time to the programming
+        career.
+      </p>
+      <p>
+        It motivates me to work in companies with dynamic environments where Iam
+        allowed to develop my skills and grow professionally.
+      </p>
+      <ul>
+        <h3>Soft Skills</h3>
+        <li>Teamwork</li>
+        <li>Constant Learning</li>
+        <li>Time management</li>
+        <li>Organizational</li>
+        <li>Decision-making</li>
+      </ul>
     </section>
   );
 }

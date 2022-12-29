@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Roboto:wght@400;700&display=swap");
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #e9edc9;
 }
 
@@ -10,9 +10,14 @@ body {
 }
 
 .textLeft {
-    text-align: left;
+  text-align: left;
 }
 
 .textRight {
-    text-align: right;
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: snow;
 }

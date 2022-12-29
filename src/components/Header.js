@@ -1,6 +1,6 @@
 import React from "react";
-import '../css/header.css';
-import profilePicture from "../images/delfi-avatar.png"
+import "../css/header.css";
+import profilePicture from "../images/delfi-avatar.png";
 
 function Header() {
   return (
