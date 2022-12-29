@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/myProfile/static/css/main.f4f0a82d.css",
+    "main.js": "/myProfile/static/js/main.817bee06.js",
+    "static/media/casarino.jpg": "/myProfile/static/media/casarino.907342692668d37866c2.jpg",
+    "static/media/rosesandtea.jpg": "/myProfile/static/media/rosesandtea.a145572b33541ce2ca1e.jpg",
+    "static/media/proseek.jpg": "/myProfile/static/media/proseek.20dc3d04df94fa415c96.jpg",
+    "static/media/toydealer.jpg": "/myProfile/static/media/toydealer.168098f2500ba09e9b68.jpg",
+    "static/media/mvgraficos.jpg": "/myProfile/static/media/mvgraficos.014ff5635d148c0d4d3c.jpg",
+    "static/media/delfi-avatar.png": "/myProfile/static/media/delfi-avatar.153bc970079396b45e9e.png",
+    "index.html": "/myProfile/index.html",
+    "main.f4f0a82d.css.map": "/myProfile/static/css/main.f4f0a82d.css.map",
+    "main.817bee06.js.map": "/myProfile/static/js/main.817bee06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f4f0a82d.css",
+    "static/js/main.817bee06.js"
+  ]
+}
