@@ -1,5 +1,5 @@
 .profile {
-  background-color: #49b081;
+  background-color: #b580d1;
   width: 100%;
   padding-top: 0.5rem;
   height: auto;
@@ -8,7 +8,7 @@
 .profile p {
   text-align: left;
   padding: 0 2rem 0 2rem;
-  color: #49b081;
+  color: #b580d1;
 }
 
 .profile ul {
@@ -16,11 +16,11 @@
 }
 
 .active {
-  background-color: #ccc;
+  background-color: #d7b9e4;
 }
 
 .boxProfile {
-  border: #49b081 solid 0.2rem;
+  border: #b580d1 solid 0.2rem;
   margin: 0.5rem;
 }
 
@@ -50,7 +50,7 @@
   }
 
   .boxProfile:hover {
-    background-color: #49b081;
+    background-color: #b580d1;
     color: snow;
     transition: 0.8s ease-in-out;
   }

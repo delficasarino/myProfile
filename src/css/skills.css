@@ -1,19 +1,19 @@
-section.skills{
-    width: 100%;
+section.skills {
+  width: 100%;
 }
 
-section.skills article{
-    width: 75%;
+section.skills article {
+  width: 75%;
 }
 
-section i{
-    font-size: 3rem;
-    padding: 1rem;
-    color: #49b081
+section i {
+  font-size: 3rem;
+  padding: 1rem;
+  color: #b580d1;
 }
 
 @media screen and (min-width: 768px) {
-    section i{
-        font-size: 4rem;
-    }
+  section i {
+    font-size: 4rem;
+  }
 }
