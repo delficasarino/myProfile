@@ -5,6 +5,7 @@ import toydealer from "../images/toydealer.jpg";
 import mvgraficos from "../images/mvgraficos.jpg";
 import proseek from "../images/proseek.jpg";
 import casarino from "../images/casarino.jpg";
+import tcrsa from "../images/tcrsa.jpg";
 
 function ActiveWebs({ active }) {
   const [page, setPage] = useState("toydealer");
@@ -12,6 +13,11 @@ function ActiveWebs({ active }) {
   return (
     <section className={`webs df wp jcc aic ${active ? "active" : null}`}>
       <article className="image df jcc aic wp">
+        <img
+          src={tcrsa}
+          alt="TCR South America"
+          onClick={() => setPage("tcrsa")}
+        />
         <img
           src={toydealer}
           alt="Toy Dealer Shop"
@@ -35,6 +41,7 @@ function ActiveWebs({ active }) {
       </article>
       <article>
         {page === "toydealer" ? <Webs img="toydealer" /> : null}
+        {page === "tcrsa" ? <Webs img="tcrsa" /> : null}
         {page === "mvgraficos" ? <Webs img="mvgraficos" /> : null}
         {page === "proseek" ? <Webs img="proseek" /> : null}
         {page === "casarino" ? <Webs img="casarino" /> : null}
