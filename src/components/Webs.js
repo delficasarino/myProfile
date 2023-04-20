@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/webs.css";
+import tcrsa from "../images/tcrsa.jpg";
 import toydealer from "../images/toydealer.jpg";
 import mvgraficos from "../images/mvgraficos.jpg";
 import proseek from "../images/proseek.jpg";
@@ -9,6 +10,15 @@ import rosesandtea from "../images/rosesandtea.jpg";
 function Webs({ img }) {
   return (
     <section className="df wp jcc aic pagesWeb">
+      <a
+        href="https://southamerica.tcr-series.com/"
+        target="_blank"
+        className="df jcc"
+      >
+        {img === "tcrsa" ? (
+          <img src={img === "tcrsa" ? tcrsa : null} alt="TCR South America" />
+        ) : null}
+      </a>
       <a href="https://toydealershop.com" target="_blank" className="df jcc">
         {img === "toydealer" ? (
           <img
