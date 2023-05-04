@@ -10,7 +10,7 @@ function Profile({ active }) {
           <h4 className="textBox">María Delfina Casarino</h4>
         </section>
         <section className="df rw wp jcc aic">
-          <h4>Birthdate:</h4>
+          <h4>Birthday:</h4>
           <h4 className="textBox">12/06/1989</h4>
         </section>
         <section className="df rw wp jcc aic">
