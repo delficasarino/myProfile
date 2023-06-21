@@ -7,19 +7,13 @@ import proseek from "../images/proseek.jpg";
 import casarino from "../images/casarino.jpg";
 import rosesandtea from "../images/rosesandtea.jpg";
 
-function Webs({ img }) {
+function Webs({ img, page, site }) {
   return (
     <section className="df wp jcc aic pagesWeb">
-      <a
-        href="https://southamerica.tcr-series.com/"
-        target="_blank"
-        className="df jcc"
-      >
-        {img === "tcrsa" ? (
-          <img src={img === "tcrsa" ? tcrsa : null} alt="TCR South America" />
-        ) : null}
+      <a href={site} target="_blank" className="df jcc">
+        <img src={img} alt={page} />
       </a>
-      <a href="https://toydealershop.com" target="_blank" className="df jcc">
+      {/*  <a href="https://toydealershop.com" target="_blank" className="df jcc">
         {img === "toydealer" ? (
           <img
             src={img === "toydealer" ? toydealer : null}
@@ -62,7 +56,7 @@ function Webs({ img }) {
             alt="Roses and Tea"
           />
         ) : null}
-      </a>
+      </a> */}
     </section>
   );
 }

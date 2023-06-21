@@ -9,42 +9,42 @@ import casarino from "../images/casarino.jpg";
 
 function ActiveWebs({ active }) {
   const [page, setPage] = useState("tcrsa");
+  const [image, setImage] = useState(tcrsa);
+  const [site, setSite] = useState("www.google.com");
+
+  const pages = [
+    { nombre: "tcrsa", image: tcrsa, site: "https://toydealershop.com" },
+    { nombre: "toydealer", image: toydealer, site: "www.google.com.ar" },
+    {
+      nombre: "mvgraficos",
+      image: mvgraficos,
+      site: "http://mv-graficos.com.ar",
+    },
+    { nombre: "proseek", image: proseek, site: "http://proseek.com.ar" },
+    { nombre: "casarino", image: casarino, site: "http://josecasarino.com" },
+  ];
 
   return (
     <section className={`webs df wp jcc aic ${active ? "active" : null}`}>
       <article className="image df jcc aic wp">
-        <img
-          src={tcrsa}
-          alt="TCR South America"
-          onClick={() => setPage("tcrsa")}
-        />
-        <img
-          src={toydealer}
-          alt="Toy Dealer Shop"
-          onClick={() => setPage("toydealer")}
-        />
-        <img
-          src={mvgraficos}
-          alt="MV Gráficos"
-          onClick={() => setPage("mvgraficos")}
-        />
-        <img
-          src={proseek}
-          alt="Proseek Argentina"
-          onClick={() => setPage("proseek")}
-        />
-        <img
-          src={casarino}
-          alt="Casarino & Asoc"
-          onClick={() => setPage("casarino")}
-        />
+        {pages &&
+          pages.length > 0 &&
+          pages.map((p) => {
+            return (
+              <img
+                src={p.image}
+                alt={p}
+                onClick={() => {
+                  setPage(p.nombre);
+                  setImage(p.image);
+                  setSite(p.site);
+                }}
+              />
+            );
+          })}
       </article>
       <article>
-        {page === "tcrsa" ? <Webs img="tcrsa" /> : null}
-        {page === "toydealer" ? <Webs img="toydealer" /> : null}
-        {page === "mvgraficos" ? <Webs img="mvgraficos" /> : null}
-        {page === "proseek" ? <Webs img="proseek" /> : null}
-        {page === "casarino" ? <Webs img="casarino" /> : null}
+        <Webs img={image} page={page} site={site} />
       </article>
     </section>
   );
